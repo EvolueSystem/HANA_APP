@@ -1,4 +1,4 @@
-namespace HANA_APP.dbhanaapp.data;
+namespace HANA_APP.db.data;
 
 /*@@layout{"layoutInfo":{"x":-98,"y":-222}}*/
 context PurchaseOrder {
