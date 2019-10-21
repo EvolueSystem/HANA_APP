@@ -1,5 +1,6 @@
 namespace HANA_APP.db.data;
 
+@OData.publish : true
 /*@@layout{"layoutInfo":{"x":-98,"y":-222}}*/
 context PurchaseOrder {
     type BusinessKey : String(10);
@@ -119,4 +120,4 @@ context PurchaseOrder {
             DELIVERYDATE             as "DeliveryDate1"
         }
         with structured privilege check;
-};   
+};
