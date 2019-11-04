@@ -1,8 +1,8 @@
 service {
-    "HANA_APP.db.data::PurchaseOrder.Header"
+    "HANA_APP.core_xsjs.xsodata::PurchaseOrder.Header"
 	  as "POHeader" navigates ("Items" as "POItem");
 
-	"HANA_APP.db.data::PurchaseOrder.Item"
+	"HANA_APP.core_xsjs.xsodata::PurchaseOrder.Item"
 	  as "POItem";
 
 	association "Items" principal  "POHeader"("PURCHASEORDERID")
